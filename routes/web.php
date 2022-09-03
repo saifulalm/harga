@@ -11,6 +11,14 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/v1', 'PricelistController@index');
+
+Route::get('/data', 'PricelistController@data_price');
+
+
+
+Route::get('/tester', 'PricelistController@get_data_dev');
+
+Route::get('/', 'PricelistController@get_data');
+
+

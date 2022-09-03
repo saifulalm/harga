@@ -25,4 +25,26 @@ class PricelistController extends Controller
 
 
     }
+
+    public function data_price(){
+        $idx = $_GET['id'];
+        return $this->GetRequest->data_price($idx);
+    }
+
+
+    public function get_data()
+    {
+        $idx = $_GET['id'];
+        return $this->GetRequest->get_data($idx);
+
+
+    }
+
+    public function get_data_dev()
+    {
+        $idx = $_GET['id'];
+        return $this->GetRequest->get_data_dev($idx);
+
+
+    }
 }
