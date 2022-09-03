@@ -1,0 +1,198 @@
+input[type="submit"],input[type="button"],button,.btn{
+-webkit-border-radius:3px !important;-moz-border-radius:3px !important;-ms-border-radius:3px !important;
+-o-border-radius:3px !important;border-radius:3px !important;border:none !important;
+background:#ff720a  !important;
+border-top:solid 2px transparent !important;
+border-bottom:solid 2px #d06f00  !important;color:#fff !important
+}
+
+
+
+
+
+.myorder,.recommended{display:block;background-color:#fff;
+border-top:none;
+border-left:1px solid #B1C3D7;
+border-bottom:1px solid #B1C3D7;
+border-right:1px solid #B1C3D7;
+margin:0 0 20px 0
+}
+.myorder{width:700px;float:left}
+.myorder hr{height:1px;border:0px;background-color:#ddd;margin:0px}
+.myorder h2{background:url(images/bg_myorder1.png) repeat-x 0 0;font:bold 20px/39px Helvetica, sans-serif, Arial;padding:0 15px;color:#fff;margin:0px}
+.myorder h3{background:url(images/bg_myorder2.png) repeat-x 0 0;color:#273f5a;font:bold 16px/30px arial, helvetica, sas-serif;padding:0 0 0 15px;text-shadow:1px 1px 1px #fff;border-top:1px solid #8ca1b3;border-bottom:1px solid #8ca1b3;height:30px;margin:0px}
+.myorder h3 small{font:normal 14px/30px arial, helvetica, sas-serif}.myorder .checkoutp{float:left;width:400px;line-height:160%;margin:20px0 10px}
+.myorder .checkout button{margin-bottom:15px}
+.myordercontainer{position:relative;display:block}
+.myorder h2,.headmyacc{background-image:none !important;background-color:#4777b1 !important}
+
+.wrapPassenger .form h4{background:#CDDEF2;border-top:1px solid #B1C3D7;border-bottom:1px solid #B1C3D7;color:#264770;font-size:15px;padding:8px
+15px;margin-top:0}
+.wrapPassenger .form h4
+span{font-weight:normal}.wrapPassenger .form
+.cols{margin:10px
+15px}.wrapPassenger .form
+.left{float:left;width:300px;padding-left:10px}.wrapPassenger .form
+.right{float:right;width:300px;padding-right:10px}.wrapPassenger .form
+.icols{margin:10px
+0px 10px 0px}
+.wrapPassenger .form
+.ileft{float:left;width:300px}
+.wrapPassenger .form
+.iright{float:right;width:300px}
+.wrapPassenger .form select{margin-top:10px}
+.wrapPassenger .form input[type="email"],
+.wrapPassenger .form input[type="text"],
+.wrapPassenger .form input[type="password"]{margin-top:10px;width:280px}
+.wrapPassenger .form input[type="password"],
+.wrapPassenger .form select{width:150px}
+
+.wrapPassenger .form label{font-weight:bold;color:#000;position:relative}
+.wrapPassenger .form .continue{text-align:right}
+.wrapPassenger .form .aContinue{background:#FF6438;border:1px solid #A03D23;font-weight:bold;font-size:18px;color:#FFF;padding:5px 20px;margin:30px;right:40px;cursor:pointer}
+.wrapPassenger .form a.aGreen{font-size:18px;position:relative;padding:5px 20px;margin:0px 0px 8px 0;right:30px}
+.wrapPassenger .form a.aGreen:after{font-size:18px;content:url(/images/icon_paynow.png);position:relative;left:5px}
+.wrapPassenger .form a.aGreen:hover{text-decoration:none}
+
+
+.clear{clear:both}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}
+
+.bagasi{width:250px}
+
+.rinciandata{
+	width:700px;
+	float:left;
+	line-height:16px;
+	margin-bottom:20px;
+
+}
+.rinciandata .flightdata_header{
+	color:#fff;
+	font-size:14px;
+	background-color:#ff720a;
+	border:1px solid #ff720a;
+	padding:10px;
+	font-weight:700
+}
+
+.rinciandata .flightdata_detail{
+  border:1px solid #ddd
+}
+.rinciandata .flightdata_detail .detail{
+	border-right:1px solid #ddd;
+	padding-bottom:10px;
+	width:570px;
+	float:left
+}
+.rinciandata .flightdata_detail .detail div{float:left}
+.rinciandata .flightdata_detail .detail .text{padding:15px 5px 10px 5px;width:134px}
+.rinciandata .flightdata_detail .detail .airlines{padding:6px 5px 0px 5px;width:70px;text-align:center}
+.rinciandata .flightdata_detail .detail .icon{ padding:15px 5px 10px 5px}
+.rinciandata .flightdata_detail .detail .time{padding:15px 5px 10px 5px;width:50px;text-align:center;font-size:18px;line-height:20px;font-weight:700;color:#000}
+.rinciandata .flightdata_detail .detail .time small{font-size:12px;color:#898989;font-weight:normal}
+.rinciandata .transit{padding-left:85px !important}
+.rinciandata .transit{padding-left:85px !important}
+.rinciandata .price{text-align:right;font-weight:700;color:#ff720a;font-size:15px;float:left;width:110px !important;padding:10px 0 10px 10px}
+.rinciandata .summary-total{border-left:1px solid #ddd;border-right:1px solid #ddd;border-bottom:1px solid #ddd}
+.rinciandata .summary-total .text{height:25px;width:560px;font-weight:700;float:left;text-align:right;padding:10px 10px 0 0;border-right:1px solid #ddd}
+.il1{display:inline-block;width:19px;height:15px;background:url(images/sprites.png) -1005px -170px;vertical-align:-2px;margin:0 5px 0 0}
+.il2{height:15px;background:url(images/sprites.png) -1005px -157px}
+.il3{height:15px;background:url(images/sprites.png) -1005px -144px}
+
+
+div.sorterFlights {
+	display:none;
+}
+
+table.display {
+border-collapse:collapse;
+}
+table.display thead tr th, table.display tfoot tr th {
+	background-color: #0070b0;
+	font-size: 8pt;
+        text-transform:uppercase;
+        color: #fff;
+        height:35px;
+        border-collapse:collapse;
+}
+
+
+table.display thead tr .header {
+        background-image: url(../pages/img/bg.gif);
+        background-repeat: no-repeat;
+        background-position: center right;
+        cursor: pointer;
+}
+
+table.display thead tr .headerSortUp {
+        background-image: url(../pages/img/asc.gif);
+}
+
+table.display thead tr .headerSortDown {
+        background-image: url(../pages/img/desc.gif);
+}
+
+table.display thead tr .headerSortDown, table.display thead tr .headerSortUp {
+background-color: #0385a3;
+}
+table.display tbody td {
+	padding: 4px;
+	background-color: #FFF;
+}
+
+#domain .pilihbutton   {
+border:1px solid;
+border-color:transparent #D06F00 !important;
+-webkit-border-radius: 3px !important;
+-moz-border-radius: 0px;
+border-radius: 0px;
+font-size:16px;font-family:Open Sans;
+padding: 5px 20px 5px 40px;
+text-decoration:none;
+display:inline-block;
+color: #FFFFFF;
+font-weight:500;
+background-color: #FF720A;
+background-image:url(images/icon_shipping.png);
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+#domain .pilihbutton:hover     {
+background-color:#f79623  !important;
+background-image:url(images/icon_shipping.png);
+background-repeat:no-repeat;
+text-decoration:none
+border:1px solid;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;font-size:16px;
+font-family:Open Sans;
+padding: 5px 20px 5px 40px;
+text-decoration:none;
+display:inline-block;
+color: #fff;font-weight:500;
+cursor:pointer;
+}
+
+
+#domain	.beli	{ 
+border:1px solid #0084CF; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:12px;font-family:trebuchet MS, sans-serif; padding: 10px 30px 10px 30px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+background-color: #0070B0; background-image: -webkit-gradient(linear, left top, left bottom, from(#0070B0), to(#002F4A));
+ background-image: -webkit-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -moz-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -ms-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -o-linear-gradient(top, #0070B0, #002F4A);
+ background-image: linear-gradient(to bottom, #0070B0, #002F4A);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0070B0, endColorstr=#002F4A);
+cursor:pointer;
+}
+
+#domain	.beli:hover	{ 
+ border:1px solid #005382;
+ background-color: #0070B0; background-image: -webkit-gradient(linear, left top, left bottom, from(#0070B0), to(#0083CC));
+ background-image: -webkit-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -moz-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -ms-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -o-linear-gradient(top, #0070B0, #0083CC);
+ background-image: linear-gradient(to bottom, #0070B0, #0083CC);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0070B0, endColorstr=#0083CC);
+}

@@ -1,0 +1,87 @@
+/*************************************************
+ * SOFT64 PhpAjaxWhois
+ *
+ * Version: 1.1
+ * Date: 1/29/2008
+ *
+ ****************************************************/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+
+@font-face
+{
+font-family: "Calibri";
+src: url(calibrib.ttf);
+}
+
+
+*{ margin: 0; padding: 0; }*
+body		{ margin: 0px 0 0; font: .7em "Trebuchet MS", Arial, Sans-Serif; color: #262f5f; background-color:#fff;}
+fieldset	{padding:10px; border:1px solid #CCCCCC; width: 250px;}
+legend		{font-size: 1.2em; color: #262f5f; font-weight: normal; font-family:"Trebuchet MS",'Times New Roman',Times,serif;}
+
+.td			{color: #000; font-weight: normal; font-family:"Trebuchet MS",'Times New Roman',Times,serif;}
+.green		{color: #009900;}
+
+#container	{margin: 0; width: 270px; background-color: #FFFFFF;}
+
+/* search form */
+#domain		{padding:10px;}
+#domain	.l1	{float: left; width: 230px; margin: 0 5px 0 0;}
+#domain	.l2	{float: left; width: 190px; margin: 0 5px 0 0; }
+#domain	.r	{float: right; margin: 0; width: 80px;}
+#domain	.input	{ font-size:12px; background-color:#fff; padding:4px; border:1px solid #b5b6c4;}
+
+#form	.input	{ font: 1em Trebuchet MS, Arial, Sans-Serif;}
+
+#domain .pilihbutton   {
+border:1px solid #01b8e2; -webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;font-size:16px;font-family:Open Sans; padding: 5px 20px 5px 40px; text-decoration:none; display:inline-block;color: #FFFFFF;font-weight:500;
+ background-color: #01b8e2;
+background-image:url(../images/icon_shipping.png);
+background-repeat:no-repeat;
+cursor:pointer;
+}
+
+#domain .pilihbutton:hover     {
+border:1px solid #36a0af; -webkit-border-radius: 0px; -moz-border-radius: 0px;border-radius: 0px;font-size:16px;font-family:Open Sans; padding: 5px 20px 5px 40px; text-decoration:none; display:inline-block;color: #fff;font-weight:500;
+ background-color: #36a0af;
+cursor:pointer;
+}
+
+
+#domain	.beli	{ 
+border:1px solid #0084CF; -webkit-border-radius: 5px; -moz-border-radius: 5px;border-radius: 5px;font-size:12px;font-family:trebuchet MS, sans-serif; padding: 10px 30px 10px 30px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+background-color: #0070B0; background-image: -webkit-gradient(linear, left top, left bottom, from(#0070B0), to(#002F4A));
+ background-image: -webkit-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -moz-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -ms-linear-gradient(top, #0070B0, #002F4A);
+ background-image: -o-linear-gradient(top, #0070B0, #002F4A);
+ background-image: linear-gradient(to bottom, #0070B0, #002F4A);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0070B0, endColorstr=#002F4A);
+cursor:pointer;
+}
+
+#domain	.beli:hover	{ 
+ border:1px solid #005382;
+ background-color: #0070B0; background-image: -webkit-gradient(linear, left top, left bottom, from(#0070B0), to(#0083CC));
+ background-image: -webkit-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -moz-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -ms-linear-gradient(top, #0070B0, #0083CC);
+ background-image: -o-linear-gradient(top, #0070B0, #0083CC);
+ background-image: linear-gradient(to bottom, #0070B0, #0083CC);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#0070B0, endColorstr=#0083CC);
+}
+
+
+
+/*result table */
+#log		{width: 270px; margin-top: 5px;}
+#log_res	{}
+#log_res.ajax-loading	{padding: 20px 0;background: url(../images/loading.gif) no-repeat center;}
+
+.tabel		{width:100%;  margin:auto; border-collapse:collapse;}
+.tabel th	{padding:2px; background-repeat: repeat-x; color:#000;}
+.tabel td	{padding:2px;}
+.disponibil {width:50%; color:#009900; text-align:left;}
+.ocupat 	{color:#CC0000; text-align:left;}
+.alt 		{background-color:#F1F1F1}
+#footer		{padding:10px; background-color: #FFFFFF;}

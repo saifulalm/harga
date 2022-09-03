@@ -1,0 +1,8 @@
+
+textarea.textDisp { display: none; }
+
+@media print
+{
+	div.textDisp { display: none; }
+	div.printArea { display: block; }
+}

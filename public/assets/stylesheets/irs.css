@@ -1,0 +1,75 @@
+.navbar .navbar-inner {
+    border-bottom: 8px solid #4CAF50 !important;
+}
+
+
+tr.grouptable,
+tr.grouptable:hover {
+    background-color: #E0E0E0 !important;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    border-radius:5px!important;
+}
+
+.input-prepend>.btn, .input-append>.btn {
+    border-radius:5px!important
+}
+
+.tablekecil {
+    border-bottom: 1px solid #C8E6C9 !important;
+    border-right: 1px solid #C8E6C9 !important;
+    border-top: 1px solid #C8E6C9 !important;
+    border-collapse:separate;
+    border-radius: 4px;
+}
+.tablekecilx td{
+    padding: 4px;
+    line-height:15px;
+}
+.tablekecil th{
+    border-top: 1px solid #C8E6C9 !important;
+    border-left: 1px solid #C8E6C9 !important;
+}
+.btn-success{
+    background-color: #4CAF50 !important;
+    border-color:#4CAF50;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #039be5 !important;
+    border-color:#039be5;
+}
+
+.btn-primary:hover {
+    background-color: #0279b3 !important;
+    border-color:#0279b3;
+  }
+
+.btn-success:hover {
+  background-color: #388E3C !important;
+  border-color:#388E3C;
+}
+
+.label-success, .badge-success {
+    background-color: #4CAF50 !important;
+    border-radius: 4px;
+    padding-top: 3px;
+    line-height: 14px;
+}
+.navbar .navbar-inner {
+    border-top:4px solid #1BA0E2;
+    border-bottom:0px solid !important;
+}
+
+
+.modal-header {
+    color:#fff;
+    padding:5px 10px;
+    background-color: #039be5;
+}
+
+.modal-header .close {
+    margin-top:7px;
+}

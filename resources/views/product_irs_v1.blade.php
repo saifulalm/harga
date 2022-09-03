@@ -50,7 +50,7 @@
 
                         </td>
                         <td>{{$s['harga']}}</td>
-                        @if($s{'status'} == 1)
+                        @if($s['status'] == 1)
                             <td><a href="#" class="Open">Open</a></td>
                         @else
                             <td><a href="#" class="Alert">Close</a></td>
